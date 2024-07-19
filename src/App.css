@@ -1,0 +1,44 @@
+/* AddEmployee.css (or your preferred CSS file) */
+
+/* Style for input fields */
+.form-control {
+    border: 1px solid #ced4da; /* Default border color */
+    border-radius: 0.25rem; /* Rounded corners */
+    padding: 0.375rem 0.75rem; /* Padding around text inside the input */
+    font-size: 1rem; /* Font size */
+    line-height: 1.5; /* Line height */
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; /* Transition for smoother interaction */
+  }
+  
+  .form-control:focus {
+    border-color: #80bdff; /* Border color when input is focused */
+    outline: 0; /* Remove default focus outline */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Box shadow when input is focused */
+  }
+  
+  .form-control::placeholder {
+    color: #6c757d; /* Placeholder text color */
+  }
+  
+  /* Style for select fields */
+  .select-control {
+    border: 1px solid #ced4da; /* Default border color */
+    border-radius: 0.25rem; /* Rounded corners */
+    padding: 0.375rem 0.75rem; /* Padding around text inside the input */
+    font-size: 1rem; /* Font size */
+    line-height: 1.5; /* Line height */
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; /* Transition for smoother interaction */
+  }
+  
+  .select-control:focus {
+    border-color: #80bdff; /* Border color when select is focused */
+    outline: 0; /* Remove default focus outline */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Box shadow when select is focused */
+  }
+  
+  /* EmployeeProfile.css */
+.custom-heading {
+  font-family: 'Arial', sans-serif; /* Example: Change to your preferred font */
+  color: #120776; /* Example: Change to your preferred color */
+  text-transform: uppercase; /* Example: Additional style */
+}
